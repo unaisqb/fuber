@@ -1,0 +1,22 @@
+{
+  "name": "sample-application",
+  "description": "It is a sample application in mean stack",
+  "main": "index.html",
+  "authors": [
+    "unais"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-ui-router": "ui-router#^0.4.2"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "sample-application",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "gulp start",
+    "test": "gulp test"
+  },
+  "engines": {
+    "node": "6.2.0"
+  },
+  "author": "unais",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.16.0",
+    "chalk": "1.1.3",
+    "compression": "1.6.2",
+    "express": "4.14.1",
+    "glob": "7.1.1",
+    "helmet": "3.4.0",
+    "lodash": "4.17.4",
+    "lru-cache": "^4.1.1",
+    "method-override": "2.3.7",
+    "mongoose": "4.8.1",
+    "morgan": "1.8.0",
+    "sample-lib": "../fuber-core",
+    "x-error": "0.0.10"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-as-promised": "6.0.0",
+    "gulp": "^3.9.1",
+    "gulp-env": "0.4.0",
+    "gulp-inject": "4.2.0",
+    "gulp-mocha": "4.2.0",
+    "gulp-nodemon": "2.2.1",
+    "gulp-rename": "1.2.2",
+    "gulp-wiredep": "1.2.0",
+    "supertest": "3.0.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "sample-lib",
+  "version": "1.0.0",
+  "description": "common fns goes here",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.2.0"
+  },
+  "author": "unais",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "4.17.4",
+    "mongoose": "4.8.1",
+    "x-error": "0.0.10"
+  }
+}
