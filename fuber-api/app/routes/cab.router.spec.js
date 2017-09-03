@@ -55,7 +55,7 @@ describe('Cab API', () => {
       .get('/cab')
       .expect(200)
       .end((err, res) => {
-        expect(res.body.length).eql(2);
+        expect(res.body.records.length).eql(2);
         done();
       });
   });
@@ -66,7 +66,7 @@ describe('Cab API', () => {
       .query({isPink: true})
       .expect(200)
       .end((err, res) => {
-        expect(res.body.length).eql(1);
+        expect(res.body.records.length).eql(1);
         done();
       });
   });

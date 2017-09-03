@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 /*
  *gulp functions
  */
@@ -11,6 +11,9 @@ const nodemon = require('gulp-nodemon');
 const fs = require('fs');
 const wiredep = require('gulp-wiredep');
 const mocha = require('gulp-mocha');
+const prettify = require('gulp-jsbeautifier');
+const eslint = require('gulp-eslint');
+
 /*
  * Paths to App files
  */
@@ -63,6 +66,29 @@ gulp.task('dev-server', () => {
     script: 'server.js',
     ext: 'js'
   });
+});
+
+/**
+ * Beautify JS
+ */
+gulp.task('beautify', function () {
+  gulp.src([].concat(paths.server, paths.client, paths.cfg, paths.html), {
+      base: '.'
+    })
+    .pipe(prettify({
+      config: '.jsbeautifyrc',
+      mode: 'VERIFY_AND_WRITE'
+    }))
+    .pipe(gulp.dest('.'));
+});
+
+/**
+ * JavaScript Linting Task
+ */
+gulp.task('lint', function () {
+  return gulp.src([].concat(paths.server, paths.client, paths.cfg, '!public/app.config.js'))
+    .pipe(eslint())
+    .pipe(eslint.format());
 });
 
 gulp.task('start', [
