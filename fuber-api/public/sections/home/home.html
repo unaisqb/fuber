@@ -1,6 +1,11 @@
 <div>
-  <h1> Welcome to Demo MEAN application</h1>
-  <div ng-repeat="cab in homeContrlr.cabs">
-    {{cab.location}}
-  </div>
+  <h1> Welcome to Fuber</h1>
+  <ul ng-repeat="cab in homeContrlr.cabs">
+    <li ng-if="cab.driverName && cab.phoneNumber">
+      <img src="{{cab.imageUrl}}" />
+      <p>Driver Name: {{cab.driverName}}<br/> Phone Number: {{cab.phoneNumber}}</br>
+        Location: Latitude: {{cab.location[0]}}, longitude: {{cab.location[1]}}
+      </p>
+    </li>
+  </ul>
 </div>

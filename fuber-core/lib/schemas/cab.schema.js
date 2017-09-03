@@ -12,7 +12,9 @@ module.exports = {
     index: '2d'
   },
   imageUrl: String,
-  driverId: Schema.Types.ObjectId,
+  driverName: String,
+  phoneNumber: String,
+  cabNo: String,
   isPink: {
     type: Boolean,
     default: false

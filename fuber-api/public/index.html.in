@@ -14,5 +14,6 @@
   <!-- endbower -->
   <!-- inject:js -->
   <!-- endinject -->
+  <link rel="stylesheet" href="styles/app.css" />
 </body>
 </html>
