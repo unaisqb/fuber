@@ -6,8 +6,8 @@
 
 const db = require('mongoose');
 
-exports.find = (query) => {
-  return db.model('Cab').find(query);
+exports.find = (query, opts) => {
+  return db.model('Cab').find(query, {}, opts);
 };
 
 exports.findOne = (query) => {

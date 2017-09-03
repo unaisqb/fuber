@@ -3,10 +3,10 @@
 /*
  * hire routes
  *
-*/
+ */
 
 const router = require('express').Router();
-const hireController = require('../controllers').hire
+const hireController = require('../controllers').hire;
 const controllerFactory = require('sample-lib').utils.controllerFactory;
 
 router.get('/', controllerFactory(hireController.index));

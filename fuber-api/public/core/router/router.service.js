@@ -8,7 +8,7 @@ angular.module('demo-app.core.router.service', [])
         url: '/',
         templateUrl: 'sections/home/home.html',
         controller: 'homeController as homeContrlr'
-      })
+      });
   })
   .factory('routerService', function ($state, $stateParams) {
     var service = {

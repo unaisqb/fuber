@@ -3,10 +3,10 @@
 /*
  * cab routes
  *
-*/
+ */
 
 const router = require('express').Router();
-const cabController = require('../controllers').cab
+const cabController = require('../controllers').cab;
 const controllerFactory = require('sample-lib').utils.controllerFactory;
 
 router.get('/', controllerFactory(cabController.index));

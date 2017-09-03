@@ -37,5 +37,3 @@ exports = module.exports = app;
 
 // Logging initialization
 console.log(`${config.applicationName} started on port ${config.port}`);
-
-

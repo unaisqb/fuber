@@ -32,13 +32,7 @@ module.exports = (promiseFn, opts) => {
         }
         if (data === undefined || data === '') {
           res.status(200).send();
-        } else if (data.type === 'file') {
-          res.download(data.path);
-        } else {
-          if (_opts.CacheControl) {
-            res.setHeader('Cache-Control', _opts.CacheControl);
-          }
-
+        } else {          
           res.status(_opts.successHTTPCode).json(data);
         }
       }, (e) => {
