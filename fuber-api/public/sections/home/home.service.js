@@ -5,7 +5,7 @@ angular.module('demo-app.sections.home.service', [])
 
     function getCabs() {
       return $http.get('/cab').then(function (response) {
-        return response.data;
+        return response.data.records;
       });
     }
 
