@@ -1,17 +1,17 @@
 
-Fuber api module
-	which contains all application logic
-Fuber core
-	Which is reusable module
+Fuber api module<br/>
+	&nbsp; which contains all application logic<br/><br/>
+Fuber core<br/>
+	&nbsp; Which is reusable module<br/><br/>
 
-Requirement
-	1) Node.js v6.0.0
-	2) Mongo
-To start
-	1) cd fuber-api
-	2) npm install
-	3) gulp start
-To run test
-	1) cd fuber-api
-	2) gulp test
+Requirement<br/>
+	&nbsp; 1) Node.js v6.0.0<br/>
+	&nbsp; 2) Mongo<br/><br/>
+To start<br/>
+	&nbsp; 1) cd fuber-api<br/>
+	&nbsp; 2) npm install<br/>
+	&nbsp; 3) gulp start<br/>
+To run test<br/>
+	&nbsp; 1) cd fuber-api<br/>
+	&nbsp; 2) gulp test<br/>
 
