@@ -12,7 +12,7 @@
   "author": "unais",
   "license": "ISC",
   "dependencies": {
-    "lodash": "4.17.4",
+    "lodash": "4.17.15",
     "mongoose": "4.8.1",
     "x-error": "0.0.10"
   }
