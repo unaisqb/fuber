@@ -22,7 +22,7 @@
     "lru-cache": "^4.1.1",
     "method-override": "2.3.7",
     "mongoose": "4.8.1",
-    "morgan": "1.8.0",
+    "morgan": "1.10.0",
     "sample-lib": "file:../fuber-core",
     "x-error": "0.0.10"
   },
