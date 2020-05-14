@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "lodash": "4.17.4",
-    "mongoose": "4.8.1",
+    "mongoose": "5.9.14",
     "x-error": "0.0.10"
   }
 }
