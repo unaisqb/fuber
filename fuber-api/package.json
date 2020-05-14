@@ -21,7 +21,7 @@
     "lodash": "4.17.4",
     "lru-cache": "^4.1.1",
     "method-override": "2.3.7",
-    "mongoose": "4.8.1",
+    "mongoose": "5.9.14",
     "morgan": "1.8.0",
     "sample-lib": "file:../fuber-core",
     "x-error": "0.0.10"
